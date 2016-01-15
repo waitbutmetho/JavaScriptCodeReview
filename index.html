@@ -6,10 +6,106 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Glorius Wiki Pages</title>
+    <title>A Glorious Vacation Survey</title>
   </head>
-
+  <!-- ***************************************************************** -->
   <body>
-    
+    <div class="container">
+      <h1>Where should you go on vacation? Find out now!</h1>
+      <h3>Fill out the survey below to find out where you should go on vacation next.</h3>
+      <form id="info" class="form-horizontal">
+        <fieldset>
+          <legend>Vacation Form</legend>
+          <!-- Text input1-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Age</label>
+            <div class="col-md-2">
+              <input id="textinput" name="textinput" type="text" placeholder="1-120" class="form-control input-md">
+            </div>
+          </div><!-- closediv-form-group1  -->
+          <!-- Select1 -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="gender">Gender</label>
+            <div class="col-md-4">
+              <select id="gender" name="gender" class="form-control">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div><!-- closediv-form-group2  -->
+          <!-- Select2 -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="lifestyle">Preferred Lifestyle</label>
+            <div class="col-md-4">
+              <select id="lifestyle" name="lifestyle" class="form-control">
+                <option value="partier">Partier</option>
+                <option value="relaxer">Relaxer</option>
+                <option value="both">Both</option>
+              </select>
+            </div>
+          </div><!-- closediv-form-group3  -->
+          <!-- Select3 -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="scenery">Preferred Scenery</label>
+            <div class="col-md-4">
+              <select id="scenery" name="scenery" class="form-control">
+                <option value="mountains">Mountains</option>
+                <option value="desert">Desert</option>
+                <option value="forest">Rain Forest</option>
+                <option value="beaches">Beaches</option>
+                <option value="lakes">Lakes</option>
+              </select>
+            </div>
+          </div><!-- closediv-form-group4  -->
+          <!-- Select4 -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="food">Preferred Food</label>
+            <div class="col-md-4">
+              <select id="food" name="food" class="form-control">
+                <option value="asian">Asian</option>
+                <option value="mexican">Mexican</option>
+                <option value="italian">Italian</option>
+                <option value="american">American</option>
+              </select>
+            </div>
+          </div><!-- closediv-form-group5  -->
+          <!-- Button1 -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="submitbutton">Click to see Results</label>
+            <div class="col-md-4">
+              <button id="submitbutton" name="submitbutton" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <hr>
+      <div class="desert">
+        <h4>Chihuahuan Desert</h4>
+        <p>The Chihuahuan Desert is a desert, and an ecoregion designation, that straddles the U.S.-Mexico border in the central and northern portions of the Mexican Plateau. <strong>You may stay in The United States or Mexico to visit.</strong></p>
+        <img class="img-responsive" src="img/desert.jpg" alt="Beautiful picture of the Chihuahuan Desert">
+      </div><!-- desert -->
+      <div class="amazon">
+        <h4>Amazon Rainforest</h4>
+        <p>The Amazon rainforest, also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. <strong>You may stay in Brazil, Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, and even France (French Guiana) to visit.</strong></p>
+        <img class="img-responsive" src="img/amazon.jpg" alt="Beautiful picture of the Amazon Rainforest">
+      </div><!-- amazon -->
+      <div class="himalaya">
+        <h4>Himalayas</h4>
+        <p>The Himalayas or Himalaya (literally meaning "abode of snow") This range is home to nine of the ten highest peaks on Earth, including the highest above sea level, Mount Everest. <strong>You may stay in India, Nepal, Bhutan, China (Tibet), or Pakistan to visit.</strong></p>
+        <img class="img-responsive" src="img/himalaya.jpg" alt="Beautiful picture of the Himalayas">
+      </div><!-- himalaya -->
+      <div class="lakes">
+        <h4>Great Lakes</h4>
+        <p>The Great Lakes are a series of interconnected freshwater lakes located in northeastern North America, on the Canada–United States border, which connect to the Atlantic Ocean through the Saint Lawrence River. <strong>You may stay in The United States or Canada to visit.</strong></p>
+        <img class="img-responsive" src="img/lakes.jpg" alt="Beautiful picture of one of the Great Lakes">
+      </div><!-- lakes -->
+      <div class="maldives">
+        <h4>Maldives</h4>
+        <p>The Maldives, officially the Republic of Maldives, is an island country and archipelago in the Indian Ocean. It lies southwest of India and Sri Lanka in the Laccadive Sea. The chain of twenty six atolls stretches from Ihavandhippolhu Atoll to the Addu Atoll. The capital and largest city is Malé, traditionally called the "King's Island." And yes the shore does actually turn blue at night. <strong>You may stay on any of the many small islands to visit.</strong></p>
+        <img class="img-responsive" src="img/maldives.jpg" alt="Beautiful picture of The Maldives shore at night">
+      </div><!-- maldives -->
+    </div><!-- closediv-container -->
   </body>
+  <!-- ***************************************************************** -->
 </html>

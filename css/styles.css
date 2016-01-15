@@ -1,0 +1,30 @@
+.desert{
+  text-align: center;
+  /*display: none;*/
+}
+
+.amazon{
+  text-align: center;
+  /*display: none;*/
+}
+
+.himalaya{
+  text-align: center;
+  /*display: none;*/
+}
+
+.lakes{
+  text-align: center;
+  /*display: none;*/
+}
+
+.maldives{
+  text-align: center;
+  /*display: none;*/
+}
+
+.img-responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
