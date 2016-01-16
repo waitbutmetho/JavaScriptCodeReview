@@ -18,7 +18,7 @@ _This webpage requires all of the bootstrap files along with proper links to jqu
 
 ## Known Bugs
 
-_No known bugs_
+_No Known Bugs_
 
 ## Support and contact details
 
