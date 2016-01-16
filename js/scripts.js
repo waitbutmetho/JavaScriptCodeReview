@@ -38,6 +38,24 @@ function showLakesOnly() {
   $("#maldives").hide();
   $("#lakes").show();
 }
+
+function addMaleClassOnly() {
+  $("body").addClass("maleStyle");
+  $("body").removeClass("femaleStyle");
+  $("body").removeClass("otherStyle");
+}
+
+function addFemaleClassOnly() {
+  $("body").addClass("femaleStyle");
+  $("body").removeClass("maleStyle");
+  $("body").removeClass("otherStyle");
+}
+
+function addOtherClassOnly() {
+  $("body").addClass("otherStyle");
+  $("body").removeClass("maleStyle");
+  $("body").removeClass("femaleStyle");
+}
 // My Functions end here //
 
 $(function(){
@@ -77,6 +95,15 @@ $(function(){
     };
     if(theAge && theGender && theLifestyle && theScenery === "lakes" && theFood) {
       showLakesOnly();
+    };
+    if(theAge && theGender === "male" && theLifestyle && theScenery && theFood) {
+      addMaleClassOnly();
+    };
+    if(theAge && theGender === "female" && theLifestyle && theScenery && theFood) {
+      addFemaleClassOnly();
+    };
+    if(theAge && theGender === "other" && theLifestyle && theScenery && theFood) {
+      addOtherClassOnly();
     };
 
       event.preventDefault();

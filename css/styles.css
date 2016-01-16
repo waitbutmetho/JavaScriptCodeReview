@@ -1,11 +1,26 @@
+/*-------------My Styles---------------*/
 legend{
   color: darkred;
   font-size: 80%;
 }
 
 img{
-  border: 12px solid black;
+  border: 2px solid black;
   border-radius: 20px;
+}
+
+.jumbotron{
+  background-color:transparent;
+}
+
+.img-responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+  font-family: verdana, sans-serif, serif;
 }
 /*------------Hidden locations------------*/
 #desert{
@@ -32,19 +47,18 @@ img{
   text-align: center;
   display: none;
 }
-/*----------End Hidden Locations-----------*/
-.jumbotron{
-  background-color:transparent;
-}
-
-.img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.doThisToWholeBody{
+/*-------------Addable classes------------*/
+.maleStyle{
   color: #859DA6;
-  font-family: verdana, sans-serif, serif;
   background-image: url("../img/woven.png");
+}
+
+.femaleStyle{
+  color: #8163A8;
+  background-image: url("../img/paven.png");
+}
+
+.otherStyle{
+  color: #4D2121;
+  background-image: url("../img/wood.png");
 }
